@@ -1,5 +1,5 @@
 Data Diri
 ===
-Nama :   
-NIM :  
-Kelas :
+Nama :   Muhammmad Ridwan
+NIM :    155150200111057
+Kelas :  TIF E
