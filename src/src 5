@@ -1,0 +1,60 @@
+public class ruang2D {
+
+       private final static double phi = 3.14;
+
+    public static double LuasSegitiga() {
+        double a = 2;
+        double t = 4;
+        double luas = (a * t) / 2;
+        return luas;
+    }
+    public static double KelilingSegitiga() {
+        double s1 = 1;
+        double s2 = 2;
+        double s3 = 3;
+        double kell= s1 + s2 + s3;
+        return kell;
+    }
+
+
+    public static double LuasSegiempat() {
+        double s = 4;
+        double luas = s * s;
+        return luas;
+    }
+    public static double KelilingSegiempat() {
+        double s = 4;
+        double kell = s + s + s + s;
+        return kell;
+    }
+
+    
+    public static double LuasLingkaran() {
+        double r = 10;
+        double luas = phi * r * r;
+        return luas;
+    }
+    public static double KelilingLingkaran() {
+        double r = 10;
+        double kell = 2 * phi * r;
+        return kell;
+    }
+    
+}
+////main////
+
+public class mainruang2d {
+    public static void main(String[] args) {
+
+System.out.println("Luas Segitiga\t\t= "+ruang2D.LuasSegitiga());
+System.out.println("Keliling Segitiga\t= "+ruang2D.KelilingSegitiga());
+
+System.out.println("Luas Segi empat\t\t= "+ruang2D.LuasSegiempat());
+System.out.println("Keliling Segi empat\t= "+ruang2D.KelilingSegiempat());
+
+System.out.println("Luas Lingkaran\t\t= "+ruang2D.LuasLingkaran());
+System.out.println("Keliling Lingkaran\t= "+ruang2D.KelilingLingkaran());
+    }
+  
+  
+}
