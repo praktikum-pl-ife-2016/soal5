@@ -1,51 +1,20 @@
-Soal Praktikum Pemrograman Lanjut IF-E 2016 BAB IV (Encapsulation)
+Soal Praktikum Pemrograman Lanjut IF-E 2016 BAB V (Static Modifier dan Konstanta Final)
 ===  
 ####Soal 
-Sebuah idol group ingin melakukan pendataan terhadap member-membernya, buatlah program untuk melakukan pendataan tersebut dan menampilkannya.  
-Class yang harus ada :
+Buatlah sebuah class bernama `Ruang2D` yang fungsinya adalah dapat menghitung keliling dan luas dari bangun 2 dimensi, bangun tersebut adalah : 
 
-* Main class
-* Member class
+* Segitiga
+* Segiempat
+* Lingkaran
 
-Setiap objek member minimal memiliki : 
+####Ketentuan :
 
-* Nama
-* Team
-* Umur
-* Nilai Penampilan
-* NIlai Suara 
-* NIlai attitude
+* Method untuk setiap perhitungan untuk setiap bangun adalah method tersendiri (method sendiri-sendiri).
+* Nilai phi sudah ditentukan dan nilainya tidak dapat dirubah (konstanta) -> 3.14.
+* Setiap method bisa digunakan tanpa harus membuat objek `Ruang2D` terlebih dahulu.
+* Setiap method **mengembalikan** nilai bukan menampilkan nilai.
+* Dapat menghitung berapa jumlah perhitungan (berapa jumlah pemanggilan method pada class, method manapun) yang telah dilakukan (gunakan atribut static).
 
-**Semua atribut tidak bisa diakses oleh kelas lain selain kelas Member, berarti modifier apa yang digunakan?**
-
-Setiap objek member bisa melakukan :
-
-* accessor dan muttator untuk semua atribut
-* khusus atribut **nilai**, accessor adalah untuk **nilai rata-rata ** bukan nilai satu-persatu.
-
-Pada Main class :
-
-* Ada method (bisa method baru atau langsung didalam main method) yang digunakan untuk menampilkan semua data member, **gunakan perulangan pada arraylist**.
-* Minimal ada 3 member, namun jumlah member **harus dinamis** , (clue : gunakanlah *List* atau *ArrayList*).
-
-Keluaran program : 
-```
----------------------Daftar Member-------------------
-Nama : "nama member"
-Team : "team member"
-Umur : "umur member"
-Rata-rata nilai : "total nilai member"
------------------------------------------------------------
-Nama : "nama member"
-Team : "team member"
-Umur : "umur member"
-Rata-rata nilai : "total nilai member"
------------------------------------------------------------
-.
-.
-.
-dst.
-```
 ####Cara pengerjaan :
 
 * Isi data diri dengan mengedit **data-diri.md**
