@@ -1,5 +1,5 @@
 Data Diri
 ===
-Nama :   
-NIM :  
-Kelas :
+Nama :   Amelia Dwi Rochani
+NIM :  15515020011106
+Kelas :TIF - E
