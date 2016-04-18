@@ -1,5 +1,5 @@
 Data Diri
 ===
-Nama :   
-NIM :  
-Kelas :
+Nama :   THAREQ IBRAHIM
+NIM :  155150200111058
+Kelas :T. INFORMATIKA E
